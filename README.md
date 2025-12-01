@@ -11,7 +11,7 @@
 - Beautiful interactive docs with **Scalar** 
 - In-memory database with seeded data
 
-## Live API Documentation (Recommended Testing Method)
+Live API Documentation (Recommended Testing Method)
 
 After starting the app, open:
 
@@ -21,6 +21,17 @@ or
 
 http://localhost:5084/scalar/v1
 
+##  Login Credentials (for JWT Authentication)
+
+Use these credentials to log in through Scalar or any API client:
+
+{
+  "username": "admin",
+  "password": "adminpw"
+}
+
+
+After logging in, copy the generated JWT token and authorize your requests.
 
 ## How to Run
 
@@ -29,3 +40,4 @@ git clone https://github.com/ArditQerimi/product-api.git
 cd Product-Api
 
 dotnet run
+
